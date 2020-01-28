@@ -3983,7 +3983,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="455-1750-1-ND">
 <attribute name="PROD_ID" value="Digital Light S."/>
 </part>
-<part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="S4" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-RIGHT-ANGLE">
 <attribute name="PROD_ID" value="Analog/Digital"/>
 </part>
@@ -4086,9 +4085,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </instance>
 <instance part="J4" gate="J$1" x="160.02" y="142.24" smashed="yes" rot="R270">
 <attribute name="PROD_ID" x="152.4" y="147.32" size="1.778" layer="96"/>
-</instance>
-<instance part="GND8" gate="1" x="160.02" y="124.46" smashed="yes">
-<attribute name="VALUE" x="160.02" y="124.206" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="S4" gate="G$1" x="266.7" y="60.96" smashed="yes" rot="R90">
 <attribute name="PROD_ID" x="264.16" y="53.34" size="1.778" layer="96" rot="R90"/>
@@ -4266,6 +4262,10 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="139.7" y1="71.12" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="71.12" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="38.1" x2="139.7" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="J4" gate="J$1" pin="2"/>
+<wire x1="160.02" y1="134.62" x2="160.02" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="119.38" x2="139.7" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="119.38" x2="139.7" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -4347,15 +4347,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="D6" gate="D1" pin="A"/>
 <wire x1="127" y1="5.08" x2="132.08" y2="5.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="J4" gate="J$1" pin="2"/>
-<wire x1="160.02" y1="134.62" x2="160.02" y2="127" width="0.1524" layer="91"/>
-<pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="160.02" y1="127" x2="160.02" y2="124.46" width="0.1524" layer="91"/>
-<junction x="160.02" y="127"/>
 </segment>
 </net>
 </nets>

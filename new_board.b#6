@@ -177,7 +177,27 @@ battery</text>
 <text x="38.1" y="44.45" size="0.762" layer="21" font="vector" rot="R180">100k</text>
 <text x="13.97" y="50.8" size="0.762" layer="21" font="vector" rot="R180">100k</text>
 <text x="34.29" y="78.74" size="0.762" layer="21" font="vector" rot="R90">100k</text>
-<text x="46.99" y="52.07" size="1.27" layer="1" rot="R180">green</text>
+<text x="46.99" y="53.34" size="1.27" layer="21" font="vector" rot="R180">green</text>
+<text x="19.05" y="92.71" size="1.27" layer="21" font="vector">smart
+control</text>
+<text x="26.67" y="92.71" size="1.27" layer="21" font="vector">arduino</text>
+<text x="10.16" y="92.71" size="1.27" layer="21" font="vector">analog/
+digital</text>
+<text x="34.29" y="85.09" size="1.27" layer="21" font="vector">9V</text>
+<text x="33.02" y="88.9" size="1.27" layer="21" font="vector">+</text>
+<text x="7.62" y="46.99" size="1.27" layer="21" font="vector">+</text>
+<text x="30.48" y="46.99" size="1.27" layer="21" font="vector">+</text>
+<text x="5.08" y="52.07" size="1.016" layer="21" font="vector" rot="R270">DO</text>
+<text x="5.08" y="45.72" size="1.016" layer="21" font="vector" rot="R270">VCC</text>
+<text x="29.21" y="59.69" size="1.016" layer="21" font="vector">5V</text>
+<text x="34.29" y="59.69" size="1.016" layer="21" font="vector">GND</text>
+<text x="29.21" y="69.85" size="1.016" layer="21" font="vector">GND</text>
+<text x="30.48" y="78.74" size="1.27" layer="21" font="vector" rot="R270">blue</text>
+<text x="25.4" y="85.09" size="1.27" layer="21" font="vector">+</text>
+<text x="25.4" y="78.74" size="1.27" layer="21" font="vector">+</text>
+<text x="41.91" y="53.34" size="1.27" layer="21" font="vector">+</text>
+<text x="38.1" y="59.69" size="1.016" layer="21" font="vector">9V</text>
+<text x="44.45" y="77.47" size="1.27" layer="21" font="vector" rot="R90">sensor</text>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi">
@@ -701,17 +721,14 @@ design rules under a new name.
 <attribute name="PROD_ID" value="DIO-08378" x="52.07" y="-8.89" size="1.778" layer="27" display="off"/>
 </element>
 <element name="D4" library="SparkFun-LED" package="LED_3MM" value="" x="27.94" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="30.226" y="83.82" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="Blue" x="-26.67" y="46.99" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="25.654" y="83.82" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="D5" library="SparkFun-LED" package="LED_3MM" value="" x="44.45" y="55.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="42.164" y="55.88" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="Green" x="99.06" y="97.79" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="46.736" y="55.88" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="D6" library="SparkFun-LED" package="LED_3MM" value="" x="27.94" y="77.47" smashed="yes" rot="R270">
-<attribute name="NAME" x="30.226" y="77.47" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="sensor LED" x="-26.67" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="25.654" y="77.47" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
@@ -720,7 +737,6 @@ design rules under a new name.
 <attribute name="VALUE" x="30.48" y="47.752" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="J2" library="SparkFun-Connectors" package="1X02" value="" x="34.29" y="87.63" smashed="yes">
-<attribute name="9V_BATTERY" value="9V" x="67.31" y="17.78" size="1.778" layer="27" display="name"/>
 <attribute name="VALUE" x="33.02" y="85.598" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J3" library="SparkFun-Connectors" package="1X02" value="" x="8.89" y="45.72" smashed="yes">
@@ -908,23 +924,27 @@ design rules under a new name.
 <wire x1="27.94" y1="76.2" x2="29.108403125" y2="77.368403125" width="0.1524" layer="1"/>
 <wire x1="29.108403125" y1="77.368403125" x2="29.108403125" y2="81.381596875" width="0.1524" layer="1"/>
 <wire x1="29.108403125" y1="81.381596875" x2="27.94" y2="82.55" width="0.1524" layer="1"/>
-<wire x1="35.56" y1="57.804" x2="36.442609375" y2="58.686609375" width="0.1524" layer="16"/>
-<wire x1="36.442609375" y1="58.686609375" x2="42.913390625" y2="58.686609375" width="0.1524" layer="16"/>
-<wire x1="42.913390625" y1="58.686609375" x2="44.45" y2="57.15" width="0.1524" layer="16"/>
-<wire x1="30.48" y1="72.39" x2="30.48" y2="71.736" width="0.1524" layer="16"/>
-<wire x1="30.48" y1="71.736" x2="30.48" y2="62.884" width="0.1524" layer="16"/>
+<wire x1="30.48" y1="72.39" x2="30.48" y2="62.884" width="0.1524" layer="16"/>
 <wire x1="30.48" y1="62.884" x2="35.56" y2="57.804" width="0.1524" layer="16"/>
 <wire x1="27.94" y1="76.2" x2="30.48" y2="73.66" width="0.1524" layer="16"/>
-<wire x1="30.48" y1="73.66" x2="30.48" y2="73.044" width="0.1524" layer="16"/>
-<wire x1="30.48" y1="73.044" x2="30.48" y2="72.39" width="0.1524" layer="16"/>
+<wire x1="30.48" y1="73.66" x2="30.48" y2="72.39" width="0.1524" layer="16"/>
 <contactref element="J2" pad="2"/>
 <contactref element="U$1" pad="GND"/>
 <wire x1="36.83" y1="87.63" x2="31.75" y2="82.55" width="0.1524" layer="16"/>
 <wire x1="31.75" y1="82.55" x2="27.94" y2="82.55" width="0.1524" layer="16"/>
-<wire x1="35.56" y1="57.15" x2="35.56" y2="56.496" width="0.1524" layer="16"/>
-<wire x1="35.56" y1="56.496" x2="36.442609375" y2="55.613390625" width="0.1524" layer="16"/>
-<wire x1="36.442609375" y1="55.613390625" x2="42.913390625" y2="55.613390625" width="0.1524" layer="16"/>
-<wire x1="42.913390625" y1="55.613390625" x2="44.45" y2="57.15" width="0.1524" layer="16"/>
+<contactref element="J4" pad="2"/>
+<wire x1="3.81" y1="48.26" x2="7.5184" y2="44.5516" width="0.1524" layer="1"/>
+<wire x1="7.5184" y1="44.5516" x2="9.37398125" y2="44.5516" width="0.1524" layer="1"/>
+<wire x1="9.37398125" y1="44.5516" x2="10.16" y2="45.33761875" width="0.1524" layer="1"/>
+<wire x1="10.16" y1="45.33761875" x2="10.16" y2="47.372378125" width="0.1524" layer="1"/>
+<wire x1="10.16" y1="47.372378125" x2="18.013621875" y2="55.226" width="0.1524" layer="1"/>
+<wire x1="18.013621875" y1="55.226" x2="34.29" y2="55.226" width="0.1524" layer="1"/>
+<wire x1="34.29" y1="55.226" x2="35.56" y2="56.496" width="0.1524" layer="1"/>
+<wire x1="35.56" y1="56.496" x2="35.56" y2="57.15" width="0.1524" layer="1"/>
+<wire x1="35.56" y1="57.804" x2="35.56" y2="57.15" width="0.1524" layer="16"/>
+<wire x1="44.45" y1="57.15" x2="42.9134" y2="58.6866" width="0.1524" layer="16"/>
+<wire x1="42.9134" y1="58.6866" x2="36.4426" y2="58.6866" width="0.1524" layer="16"/>
+<wire x1="36.4426" y1="58.6866" x2="35.56" y2="57.804" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$10">
 <contactref element="R6" pad="P$1"/>
@@ -1005,9 +1025,6 @@ design rules under a new name.
 <contactref element="D6" pad="A"/>
 <wire x1="35.56" y1="76.2" x2="33.02" y2="78.74" width="0.1524" layer="16"/>
 <wire x1="33.02" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="16"/>
-</signal>
-<signal name="N$18">
-<contactref element="J4" pad="2"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

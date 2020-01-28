@@ -3921,7 +3921,7 @@ No silk outline, but tDocu layer shows pin location.
 <junction x="269.24" y="127"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="5V" class="0">
 <segment>
 <pinref part="S2" gate="G$1" pin="1"/>
 <wire x1="254" y1="50.8" x2="254" y2="20.32" width="0.1524" layer="91"/>

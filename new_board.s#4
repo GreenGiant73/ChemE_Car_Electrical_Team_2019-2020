@@ -4166,6 +4166,10 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <junction x="233.68" y="104.14"/>
 <junction x="271.78" y="104.14"/>
 <junction x="279.4" y="96.52"/>
+<junction x="233.68" y="99.06"/>
+<junction x="238.76" y="99.06"/>
+<junction x="254" y="99.06"/>
+<junction x="266.7" y="99.06"/>
 </segment>
 </net>
 <net name="N$4" class="0">
