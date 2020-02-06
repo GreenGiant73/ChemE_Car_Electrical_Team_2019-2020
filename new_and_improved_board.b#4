@@ -161,10 +161,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="-7.62" y1="-7.62" x2="67.29" y2="-7.62" width="0" layer="20"/>
-<wire x1="67.29" y1="-7.62" x2="67.29" y2="68.25" width="0" layer="20"/>
-<wire x1="67.29" y1="68.25" x2="-7.62" y2="68.25" width="0" layer="20"/>
-<wire x1="-7.62" y1="68.25" x2="-7.62" y2="-7.62" width="0" layer="20"/>
+<wire x1="-5.08" y1="-5.08" x2="66.02" y2="-5.08" width="0" layer="20"/>
+<wire x1="66.02" y1="-5.08" x2="66.02" y2="66.98" width="0" layer="20"/>
+<wire x1="66.02" y1="66.98" x2="-5.08" y2="66.98" width="0" layer="20"/>
+<wire x1="-5.08" y1="66.98" x2="-5.08" y2="-5.08" width="0" layer="20"/>
 <text x="43.18" y="0" size="1.8288" layer="21" font="vector">motor</text>
 <text x="57.15" y="-2.54" size="1.8288" layer="21" font="vector">team
 battery</text>
@@ -172,11 +172,11 @@ battery</text>
 <text x="16.51" y="43.18" size="1.4224" layer="21" font="vector" rot="R90">100k</text>
 <text x="25.4" y="43.18" size="1.4224" layer="21" font="vector" rot="R90">100k</text>
 <text x="38.1" y="50.8" size="1.4224" layer="21" font="vector" rot="R180">100k</text>
-<text x="-2.54" y="63.5" size="1.8288" layer="21" font="vector">motor</text>
+<text x="-2.54" y="62.23" size="1.8288" layer="21" font="vector">motor</text>
 <text x="60.96" y="27.94" size="1.4224" layer="21" font="vector" rot="R270">DLS</text>
 <text x="34.29" y="35.56" size="1.4224" layer="21" font="vector">100k</text>
 <text x="38.1" y="44.45" size="1.4224" layer="21" font="vector" rot="R180">100k</text>
-<text x="64.77" y="48.26" size="1.27" layer="21" font="vector" rot="R270">green</text>
+<text x="57.15" y="48.26" size="1.27" layer="21" font="vector">green</text>
 <text x="7.62" y="62.23" size="1.8288" layer="21" font="vector">smart
 control</text>
 <text x="38.1" y="62.23" size="1.8288" layer="21" font="vector">arduino</text>
@@ -189,16 +189,16 @@ digital</text>
 <text x="36.83" y="11.43" size="1.016" layer="21" font="vector">5V</text>
 <text x="41.91" y="11.43" size="1.016" layer="21" font="vector">GND</text>
 <text x="29.21" y="30.48" size="1.016" layer="21" font="vector">GND</text>
-<text x="64.77" y="54.61" size="1.27" layer="21" font="vector" rot="R270">blue</text>
+<text x="58.42" y="54.61" size="1.27" layer="21" font="vector">blue</text>
 <text x="55.88" y="46.99" size="1.27" layer="21" font="vector">+</text>
-<text x="57.15" y="40.64" size="1.27" layer="21" font="vector" rot="R90">+</text>
+<text x="57.15" y="39.37" size="1.27" layer="21" font="vector" rot="R90">+</text>
 <text x="45.72" y="11.43" size="1.016" layer="21" font="vector">9V</text>
-<text x="66.04" y="35.56" size="1.27" layer="21" font="vector" rot="R90">sensor</text>
+<text x="62.23" y="41.91" size="1.27" layer="21" font="vector" rot="R180">sensor</text>
 <text x="35.56" y="0" size="1.27" layer="21" rot="R90">1</text>
 <text x="34.29" y="3.81" size="1.27" layer="21" rot="R270">2</text>
 <text x="34.29" y="6.35" size="1.27" layer="21" rot="R270">3</text>
 <text x="29.21" y="62.23" size="1.8288" layer="21" font="vector">reset</text>
-<text x="63.5" y="-3.81" size="2.1844" layer="21" font="vector" rot="R180">ChemE Car Electrical</text>
+<text x="62.23" y="10.16" size="2.1844" layer="21" font="vector" rot="R180">ChemE Car Electrical</text>
 <text x="20.32" y="5.08" size="1.4224" layer="21" font="vector" rot="R270">100k</text>
 <text x="12.7" y="5.08" size="1.4224" layer="21" font="vector" rot="R270">100k</text>
 </plain>

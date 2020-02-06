@@ -199,7 +199,7 @@ digital</text>
 <text x="33.02" y="7.62" size="1.27" layer="21" rot="R270">S</text>
 <text x="29.21" y="62.23" size="1.8288" layer="21" font="vector">reset</text>
 <text x="62.23" y="10.16" size="2.1844" layer="21" font="vector" rot="R180">ChemE Car Electrical</text>
-<text x="20.32" y="5.08" size="1.4224" layer="21" font="vector" rot="R270">100k</text>
+<text x="20.32" y="5.08" size="1.4224" layer="21" font="vector" rot="R270">10k</text>
 <text x="12.7" y="5.08" size="1.4224" layer="21" font="vector" rot="R270">1k</text>
 </plain>
 <libraries>

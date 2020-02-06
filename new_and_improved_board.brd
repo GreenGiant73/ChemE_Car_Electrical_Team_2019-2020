@@ -205,6 +205,7 @@ digital</text>
 <circle x="31.75" y="22.86" radius="1.27" width="1.778" layer="21"/>
 <circle x="36.83" y="22.86" radius="1.27" width="1.778" layer="21"/>
 <wire x1="38.1" y1="19.05" x2="35.56" y2="17.78" width="0.6096" layer="21" curve="-102.680383"/>
+<dimension x1="66.02" y1="-5.08" x2="66.02" y2="66.98" x3="78.74" y3="30.95" textsize="1.8288" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi">
