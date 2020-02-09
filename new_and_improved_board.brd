@@ -3,7 +3,7 @@
 <eagle version="9.5.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -206,6 +206,7 @@ digital</text>
 <circle x="36.83" y="22.86" radius="1.27" width="1.778" layer="21"/>
 <wire x1="38.1" y1="19.05" x2="35.56" y2="17.78" width="0.6096" layer="21" curve="-102.680383"/>
 <dimension x1="66.02" y1="-5.08" x2="66.02" y2="66.98" x3="78.74" y3="30.95" textsize="1.8288" layer="21"/>
+<dimension x1="66.02" y1="66.98" x2="-5.08" y2="66.98" x3="30.47" y3="81.28" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi">
@@ -758,11 +759,11 @@ design rules under a new name.
 <contactref element="R6" pad="P$2"/>
 <contactref element="R8" pad="P$2"/>
 <wire x1="11.43" y1="7.62" x2="7.62" y2="7.62" width="1.778" layer="1"/>
-<wire x1="7.62" y1="7.62" x2="5.08" y2="10.16" width="1.778" layer="1"/>
-<wire x1="5.08" y1="10.16" x2="5.08" y2="16.51" width="1.778" layer="1"/>
-<wire x1="5.08" y1="16.51" x2="7.62" y2="19.05" width="1.778" layer="1"/>
-<wire x1="7.62" y1="19.05" x2="17.78" y2="19.05" width="1.778" layer="1"/>
-<wire x1="17.78" y1="19.05" x2="25.4" y2="26.67" width="1.778" layer="1"/>
+<wire x1="7.62" y1="7.62" x2="2.54" y2="12.7" width="1.778" layer="1"/>
+<wire x1="2.54" y1="12.7" x2="2.54" y2="16.51" width="1.778" layer="1"/>
+<wire x1="2.54" y1="16.51" x2="7.62" y2="21.59" width="1.778" layer="1"/>
+<wire x1="7.62" y1="21.59" x2="20.32" y2="21.59" width="1.778" layer="1"/>
+<wire x1="20.32" y1="21.59" x2="25.4" y2="26.67" width="1.778" layer="1"/>
 <wire x1="25.4" y1="26.67" x2="25.4" y2="29.21" width="1.778" layer="1"/>
 <wire x1="25.4" y1="29.21" x2="25.4" y2="35.56" width="1.778" layer="1"/>
 <wire x1="25.4" y1="35.56" x2="30.48" y2="40.64" width="1.778" layer="1"/>
@@ -792,11 +793,11 @@ design rules under a new name.
 <wire x1="30.48" y1="33.02" x2="27.94" y2="30.48" width="1.778" layer="1"/>
 <wire x1="27.94" y1="30.48" x2="27.94" y2="29.21" width="1.778" layer="1"/>
 <wire x1="27.94" y1="29.21" x2="27.94" y2="25.4" width="1.778" layer="1"/>
-<wire x1="27.94" y1="25.4" x2="19.05" y2="16.51" width="1.778" layer="1"/>
-<wire x1="19.05" y1="16.51" x2="8.89" y2="16.51" width="1.778" layer="1"/>
-<wire x1="8.89" y1="16.51" x2="7.62" y2="15.24" width="1.778" layer="1"/>
-<wire x1="7.62" y1="15.24" x2="7.62" y2="11.43" width="1.778" layer="1"/>
-<wire x1="7.62" y1="11.43" x2="8.89" y2="10.16" width="1.778" layer="1"/>
+<wire x1="27.94" y1="25.4" x2="21.59" y2="19.05" width="1.778" layer="1"/>
+<wire x1="21.59" y1="19.05" x2="10.16" y2="19.05" width="1.778" layer="1"/>
+<wire x1="10.16" y1="19.05" x2="6.35" y2="15.24" width="1.778" layer="1"/>
+<wire x1="6.35" y1="15.24" x2="6.35" y2="12.7" width="1.778" layer="1"/>
+<wire x1="6.35" y1="12.7" x2="8.89" y2="10.16" width="1.778" layer="1"/>
 <wire x1="8.89" y1="10.16" x2="17.78" y2="10.16" width="1.778" layer="1"/>
 <wire x1="19.05" y1="7.62" x2="19.05" y2="8.89" width="1.778" layer="1"/>
 <wire x1="19.05" y1="8.89" x2="17.78" y2="10.16" width="1.778" layer="1"/>
@@ -864,7 +865,7 @@ design rules under a new name.
 <contactref element="R4" pad="P$2"/>
 <contactref element="J4" pad="2"/>
 <contactref element="J2" pad="2"/>
-<polygon width="0.254" layer="1" isolate="0.3048">
+<polygon width="0.254" layer="1" isolate="0.4572">
 <vertex x="-3.81" y="63.5"/>
 <vertex x="64.77" y="63.5"/>
 <vertex x="64.77" y="-2.54"/>
@@ -917,7 +918,7 @@ design rules under a new name.
 <contactref element="J4" pad="3"/>
 <contactref element="R7" pad="P$2"/>
 <contactref element="S4" pad="1"/>
-<polygon width="0.254" layer="16" isolate="0.3048">
+<polygon width="0.254" layer="16" isolate="0.4572">
 <vertex x="7.62" y="62.23"/>
 <vertex x="58.42" y="62.23"/>
 <vertex x="63.5" y="57.15"/>

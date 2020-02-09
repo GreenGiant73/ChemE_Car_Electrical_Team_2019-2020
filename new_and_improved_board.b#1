@@ -3,7 +3,7 @@
 <eagle version="9.5.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -205,6 +205,8 @@ digital</text>
 <circle x="31.75" y="22.86" radius="1.27" width="1.778" layer="21"/>
 <circle x="36.83" y="22.86" radius="1.27" width="1.778" layer="21"/>
 <wire x1="38.1" y1="19.05" x2="35.56" y2="17.78" width="0.6096" layer="21" curve="-102.680383"/>
+<dimension x1="66.02" y1="-5.08" x2="66.02" y2="66.98" x3="78.74" y3="30.95" textsize="1.8288" layer="21"/>
+<dimension x1="66.02" y1="66.98" x2="-5.08" y2="66.98" x3="30.47" y3="81.28" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi">
@@ -863,7 +865,7 @@ design rules under a new name.
 <contactref element="R4" pad="P$2"/>
 <contactref element="J4" pad="2"/>
 <contactref element="J2" pad="2"/>
-<polygon width="0.254" layer="1" isolate="0.3048">
+<polygon width="0.254" layer="1" isolate="0.4572">
 <vertex x="-3.81" y="63.5"/>
 <vertex x="64.77" y="63.5"/>
 <vertex x="64.77" y="-2.54"/>
@@ -916,7 +918,7 @@ design rules under a new name.
 <contactref element="J4" pad="3"/>
 <contactref element="R7" pad="P$2"/>
 <contactref element="S4" pad="1"/>
-<polygon width="0.254" layer="16" isolate="0.3048">
+<polygon width="0.254" layer="16" isolate="0.4572">
 <vertex x="7.62" y="62.23"/>
 <vertex x="58.42" y="62.23"/>
 <vertex x="63.5" y="57.15"/>

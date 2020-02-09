@@ -3,7 +3,7 @@
 <eagle version="9.5.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -201,6 +201,11 @@ digital</text>
 <text x="62.23" y="10.16" size="2.1844" layer="21" font="vector" rot="R180">ChemE Car Electrical</text>
 <text x="20.32" y="5.08" size="1.4224" layer="21" font="vector" rot="R270">10k</text>
 <text x="12.7" y="5.08" size="1.4224" layer="21" font="vector" rot="R270">1k</text>
+<circle x="35.56" y="21.59" radius="5.588" width="0.2" layer="21"/>
+<circle x="31.75" y="22.86" radius="1.27" width="1.778" layer="21"/>
+<circle x="36.83" y="22.86" radius="1.27" width="1.778" layer="21"/>
+<wire x1="38.1" y1="19.05" x2="35.56" y2="17.78" width="0.6096" layer="21" curve="-102.680383"/>
+<dimension x1="66.02" y1="-5.08" x2="66.02" y2="66.98" x3="78.74" y3="30.95" textsize="1.8288" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi">
